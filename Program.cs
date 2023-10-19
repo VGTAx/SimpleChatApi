@@ -23,7 +23,6 @@ builder.Services.AddSwaggerGen(swaggerBuilder =>
     Title = "SimpleChatAPI",
     Description = "Simple Char API for managing chats",
   });  
-
   var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
   var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
   swaggerBuilder.EnableAnnotations();
