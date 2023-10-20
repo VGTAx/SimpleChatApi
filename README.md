@@ -4,8 +4,7 @@
 <h4>В проекте реализовано следующее:</h4> 
 <ol>
   <li>Методы API</li>
-  <li>SignalR Hub</li> 
-  <li>Тестирование методов API</li>
+  <li>SignalR Hub</li>
   <li>Документация API с использованием Swagger.</li>
   
 </ol>
